@@ -1,0 +1,8 @@
+{
+  "item.urbanwarfare.spas12": "SPAS-12",
+  "item.urbanwarfare.kriss_vector": "KRISS Vector",
+  "item.urbanwarfare.glock19": "Glock 19",
+  "tooltip.urbanwarfare.hold_shift_key": "Hold %s to view the item information",
+  "tooltip.urbanwarfare.bullet_casing_info": "This item can be used as an ingredient to craft a bullet, and is not usable as ammunition",
+  "itemGroup.urbanwarfare": "Urban Warfare"
+}
