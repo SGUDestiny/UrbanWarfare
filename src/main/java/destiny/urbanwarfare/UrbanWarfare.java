@@ -1,23 +1,16 @@
 package destiny.urbanwarfare;
 
-
-
 import destiny.urbanwarfare.client.ClientHandler;
-import destiny.urbanwarfare.datagen.ModRecipeGenerator;
+import destiny.urbanwarfare.datagen.RecipeGenerator;
 import destiny.urbanwarfare.registry.ItemRegistry;
 import destiny.urbanwarfare.registry.SoundRegistry;
-import destiny.urbanwarfare.UrbanWarfareTab;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.item.ItemGroup;
 import net.minecraftforge.eventbus.api.IEventBus;
-import net.minecraftforge.fml.ModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.GatherDataEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-
-import java.util.stream.Collectors;
 
 @Mod(UrbanWarfare.ID)
 public class UrbanWarfare {
@@ -41,6 +34,6 @@ public class UrbanWarfare {
 
     private void gatherData(GatherDataEvent event) {
         DataGenerator generator = event.getGenerator();
-        generator.addProvider(new ModRecipeGenerator(generator));
+        generator.addProvider(new RecipeGenerator(generator));
     }
 }

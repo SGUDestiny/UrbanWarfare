@@ -1,0 +1,20 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "tag": "forge:ingots/iron",
+      "count": 25
+    },
+    {
+      "tag": "minecraft:gray_concrete",
+      "count": 8
+    },
+    {
+      "tag": "minecraft:iron_bars",
+      "count": 6
+    }
+  ],
+  "result": {
+    "item": "urbanwarfare:spas12"
+  }
+}

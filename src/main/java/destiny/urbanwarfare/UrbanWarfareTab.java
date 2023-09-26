@@ -2,6 +2,7 @@ package destiny.urbanwarfare;
 
 import destiny.urbanwarfare.common.UrbanGunItem;
 import com.mrcrayfish.guns.client.CustomGunManager;
+import destiny.urbanwarfare.registry.ItemRegistry;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -15,7 +16,7 @@ public class UrbanWarfareTab extends ItemGroup {
 
     @Override
     public ItemStack makeIcon() {
-        return new ItemStack(Items.CRAFTING_TABLE);
+        return new ItemStack(ItemRegistry.KRISS_VECTOR.get());
     }
 
     @Override

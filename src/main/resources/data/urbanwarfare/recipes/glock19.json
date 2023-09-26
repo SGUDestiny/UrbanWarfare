@@ -1,0 +1,28 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "tag": "forge:ingots/iron",
+      "count": 8
+    },
+    {
+      "tag": "minecraft:gray_concrete",
+      "count": 3
+    },
+    {
+      "tag": "minecraft:iron_bars",
+      "count": 4
+    },
+    {
+      "tag": "minecraft:heavy_weighted_pressure_plate",
+      "count": 1
+    },
+    {
+      "tag": "forge:nuggets/iron",
+      "count": 6
+    }
+  ],
+  "result": {
+    "item": "urbanwarfare:glock19"
+  }
+}

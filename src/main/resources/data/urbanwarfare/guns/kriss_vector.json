@@ -5,12 +5,12 @@
     "gripType": "cgm:two_handed",
     "maxAmmo": 26,
     "reloadAmount": 3,
-    "recoilAngle": -1.0,
-    "recoilKick": 0.2,
+    "recoilAngle": 0.7,
+    "recoilKick": 0.1,
     "recoilAdsReduction": 0.8,
     "projectileAmount": 1,
     "alwaysSpread": true,
-    "spread": 5.0
+    "spread": 8.0
   },
   "projectile": {
     "item": "cgm:basic_bullet",
@@ -28,16 +28,16 @@
   },
   "display": {
     "flash": {
-      "yOffset": 8.35,
-      "zOffset": -13.6,
-      "size": 0.4
+      "yOffset": 8.4,
+      "zOffset": -21.0,
+      "size": 0.6
     }
   },
   "modules": {
     "zoom": {
-      "yOffset": 13.0,
-      "zOffset": 17.5,
-      "fovModifier": 0.6
+      "yOffset": 13.5,
+      "zOffset": 12.5,
+      "fovModifier": 0.7
     },
     "attachments": {
       "scope": {
