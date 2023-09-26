@@ -1,16 +1,16 @@
 {
   "general": {
     "auto": true,
-    "rate": 1.5,
+    "rate": 2,
     "gripType": "cgm:two_handed",
     "maxAmmo": 26,
     "reloadAmount": 3,
-    "recoilAngle": -193.0,
-    "recoilKick": 0.8,
+    "recoilAngle": -1.0,
+    "recoilKick": 0.2,
     "recoilAdsReduction": 0.8,
     "projectileAmount": 1,
     "alwaysSpread": true,
-    "spread": 3.8
+    "spread": 5.0
   },
   "projectile": {
     "item": "cgm:basic_bullet",
@@ -36,8 +36,8 @@
   "modules": {
     "zoom": {
       "yOffset": 13.0,
-      "zOffset": 15.5,
-      "fovModifier": 0.7
+      "zOffset": 17.5,
+      "fovModifier": 0.6
     },
     "attachments": {
       "scope": {
