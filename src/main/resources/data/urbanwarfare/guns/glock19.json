@@ -29,7 +29,8 @@
   "display": {
     "flash": {
       "yOffset": 7.0,
-      "zOffset": -3.0
+      "zOffset": -4.0,
+      "size": 0.5
     }
   },
   "modules": {
