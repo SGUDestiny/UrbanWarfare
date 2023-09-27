@@ -411,8 +411,8 @@
 			}
 		},
 		{
-			"from": [7.95, 13.45, 7.3],
-			"to": [8.05, 13.55, 7.3],
+			"from": [7.975, 13.475, 7.3],
+			"to": [8.025, 13.525, 7.3],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 3.55]},
 			"faces": {
 				"north": {"uv": [3.375, 7.5, 3.5, 7.625], "texture": "#1"},
@@ -447,11 +447,11 @@
 			"scale": [0.6, 0.6, 0.6]
 		},
 		"firstperson_righthand": {
-			"translation": [-5, 2, 0],
+			"translation": [-4.5, 2.5, 5.75],
 			"scale": [0.8, 0.8, 0.8]
 		},
 		"firstperson_lefthand": {
-			"translation": [-5, 2, 0],
+			"translation": [-4.5, 2.5, 5.75],
 			"scale": [0.8, 0.8, 0.8]
 		},
 		"ground": {

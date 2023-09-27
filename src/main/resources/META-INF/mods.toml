@@ -9,7 +9,7 @@ modLoader="javafml" #mandatory
 loaderVersion="[36,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
 # The license for you mod. This is mandatory metadata and allows for easier comprehension of your redistributive properties.
 # Review your options at https://choosealicense.com/. All rights reserved is the default copyright stance, and is thus the default here.
-license="All rights reserved"
+license="https://github.com/SGUDestiny/UrbanWarfare/blob/master/LICENSE.txt"
 # A URL to refer people to when problems occur with this mod
 #issueTrackerURL="https://change.me.to.your.issue.tracker.example.invalid/" #optional
 # A list of mods - how many allowed here is determined by the individual mod loader
@@ -19,11 +19,14 @@ license="All rights reserved"
     displayName="Urban Warfare"
     #updateJSONURL="https://change.me.example.invalid/updates.json" #optional
     #displayURL="https://change.me.to.your.mods.homepage.example.invalid/" #optional
-    logoFile="urbanwarfare.png" #optional
-    credits="Additional Guns mod"
+    logoFile="uw_logo.png" #optional
+    credits="Big thanks to Additional Guns mod for providing example code"
     authors="Destiny"
     description='''
-Urban Warfare is a small mod that adds few more guns to the base mod.
+Urban Warfare is a small mod that adds even more guns to the MrCrayfish's Gun Mod;
+If you encountered an issue, or want to suggest something, please proceed to mod's GitHub page!
+
+Enjoy your gunpowder-propelled freedom dispensers!
 '''
 
 [[dependencies.urbanwarfare]] #optional

@@ -1,8 +1,8 @@
 package destiny.urbanwarfare;
 
 import destiny.urbanwarfare.common.UrbanGunItem;
-import com.mrcrayfish.guns.client.CustomGunManager;
 import destiny.urbanwarfare.registry.ItemRegistry;
+import com.mrcrayfish.guns.client.CustomGunManager;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -16,9 +16,11 @@ public class UrbanWarfareTab extends ItemGroup {
 
     @Override
     public ItemStack makeIcon() {
-        return new ItemStack(ItemRegistry.KRISS_VECTOR.get());
+        UrbanGunItem gunItem = (UrbanGunItem) ItemRegistry.KRISS_VECTOR.get();
+        ItemStack stack = gunItem.getDefaultInstance();
+        stack.getOrCreateTag().putInt("AmmoCount", gunItem.getGun().getGeneral().getMaxAmmo());
+        return stack;
     }
-
     @Override
     public void fillItemList(NonNullList<ItemStack> items) {
         super.fillItemList(items);
