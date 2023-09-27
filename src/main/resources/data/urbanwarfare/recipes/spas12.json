@@ -6,11 +6,11 @@
       "count": 25
     },
     {
-      "tag": "minecraft:gray_concrete",
+      "item": "minecraft:gray_concrete",
       "count": 8
     },
     {
-      "tag": "minecraft:iron_bars",
+      "item": "minecraft:iron_bars",
       "count": 6
     }
   ],

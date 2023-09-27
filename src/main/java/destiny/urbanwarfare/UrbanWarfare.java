@@ -1,10 +1,8 @@
 package destiny.urbanwarfare;
 
 import destiny.urbanwarfare.client.ClientHandler;
-import destiny.urbanwarfare.datagen.RecipeGenerator;
 import destiny.urbanwarfare.registry.ItemRegistry;
 import destiny.urbanwarfare.registry.SoundRegistry;
-import net.minecraft.data.DataGenerator;
 import net.minecraft.item.ItemGroup;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
@@ -33,7 +31,5 @@ public class UrbanWarfare {
     }
 
     private void gatherData(GatherDataEvent event) {
-        DataGenerator generator = event.getGenerator();
-        generator.addProvider(new RecipeGenerator(generator));
     }
 }

@@ -1,7 +1,7 @@
 {
   "general": {
     "auto": true,
-    "rate": 3,
+    "rate": 4,
     "gripType": "cgm:one_handed",
     "maxAmmo": 19,
     "reloadAmount": 3,
@@ -28,14 +28,14 @@
   },
   "display": {
     "flash": {
-      "yOffset": 5.925,
-      "zOffset": -10.0
+      "yOffset": 7.0,
+      "zOffset": -3.0
     }
   },
   "modules": {
     "zoom": {
-      "yOffset": 8.0,
-      "zOffset": 5.5,
+      "yOffset": 10.0,
+      "zOffset": 2.5,
       "fovModifier": 0.8
     },
     "attachments": {
