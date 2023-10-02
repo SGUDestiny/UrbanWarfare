@@ -16,6 +16,7 @@
     "damage": 18.0,
     "size": 1.0,
     "speed": 10.0,
+    "gravity": true,
     "life": 7
   },
   "sounds": {
@@ -40,17 +41,24 @@
     },
     "attachments": {
       "scope": {
-        "yOffset": 4.4,
-        "zOffset": 4.0
+        "yOffset": 13.25,
+        "zOffset": 10.5,
+        "scale": 1.0
       },
       "barrel": {
-        "yOffset": 3.6506,
-        "zOffset": -3.8,
-        "scale": 0.5
+        "yOffset": 12.5,
+        "zOffset": -16.74,
+        "scale": 1.0
       },
       "stock": {
-        "yOffset": 3.6506,
-        "zOffset": 8.4
+        "yOffset": 12.5,
+        "zOffset": 18.0,
+        "scale": 1.0
+      },
+      "underBarrel": {
+        "yOffset": 0.0,
+        "zOffset": 0.0,
+        "scale": 1.0
       }
     }
   }

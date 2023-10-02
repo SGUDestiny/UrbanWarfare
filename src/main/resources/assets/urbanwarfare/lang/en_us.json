@@ -2,6 +2,10 @@
   "item.urbanwarfare.spas12": "SPAS-12",
   "item.urbanwarfare.kriss_vector": "KRISS Vector",
   "item.urbanwarfare.glock19": "Glock 19",
+  "item.urbanwarfare.spas12_stock": "SPAS-12 Stock",
+  "item.urbanwarfare.eotech_sight": "EOTech Sight",
+  "item.urbanwarfare.kriss_vector_stock": "KRISS Vector Stock",
+  "item.urbanwarfare.kriss_vector_suppressor": "KRISS Vector Suppressor",
   "tooltip.urbanwarfare.hold_shift_key": "Hold %s to view the item information",
   "tooltip.urbanwarfare.bullet_casing_info": "This item can be used as an ingredient to craft a bullet, and is not usable as ammunition",
   "itemGroup.urbanwarfare": "Urban Warfare"

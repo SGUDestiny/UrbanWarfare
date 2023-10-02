@@ -17,6 +17,7 @@
     "damage": 3.5,
     "size": 0.2,
     "speed": 11.5,
+    "gravity": true,
     "life": 27
   },
   "sounds": {
@@ -41,18 +42,14 @@
     },
     "attachments": {
       "scope": {
-        "yOffset": 3.7,
-        "zOffset": 6.0,
-        "scale": 0.75
+        "yOffset": 8.4,
+        "zOffset": 11.0,
+        "scale": 1.0
       },
       "barrel": {
-        "yOffset": 3.3,
-        "zOffset": 2.65,
-        "scale": 0.5
-      },
-      "stock": {
-        "yOffset": 3.3,
-        "zOffset": 7.95
+        "yOffset": 7.5,
+        "zOffset": -2.25,
+        "scale": 1.0
       }
     }
   }

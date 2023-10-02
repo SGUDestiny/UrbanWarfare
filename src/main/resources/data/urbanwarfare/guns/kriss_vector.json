@@ -3,11 +3,11 @@
     "auto": true,
     "rate": 2,
     "gripType": "cgm:two_handed",
-    "maxAmmo": 26,
-    "reloadAmount": 3,
-    "recoilAngle": 1.0,
-    "recoilKick": 0.3,
-    "recoilAdsReduction": 0.8,
+    "maxAmmo": 30,
+    "reloadAmount": 4,
+    "recoilAngle": 3.0,
+    "recoilKick": 1.0,
+    "recoilAdsReduction": 0.5,
     "projectileAmount": 1,
     "alwaysSpread": true,
     "spread": 8.0
@@ -16,6 +16,7 @@
     "item": "cgm:basic_bullet",
     "damage": 3.5,
     "size": 0.3,
+    "gravity": true,
     "speed": 13.0,
     "life": 25
   },
@@ -35,23 +36,30 @@
   },
   "modules": {
     "zoom": {
-      "yOffset": 13.5,
+      "yOffset": 13.13,
       "zOffset": 12.5,
       "fovModifier": 0.7
     },
     "attachments": {
       "scope": {
-        "yOffset": 4.4,
-        "zOffset": 4.0
+        "yOffset": 12.0,
+        "zOffset": 0.0,
+        "scale": 1.0
       },
       "barrel": {
-        "yOffset": 3.6506,
-        "zOffset": -3.8,
-        "scale": 0.5
+        "yOffset": 9.0,
+        "zOffset": -14.0,
+        "scale": 1.0
       },
       "stock": {
-        "yOffset": 3.6506,
-        "zOffset": 8.4
+        "yOffset": 11.0,
+        "zOffset": 7.5,
+        "scale": 1.0
+      },
+      "underBarrel": {
+        "yOffset": 0.0,
+        "zOffset": 0.0,
+        "scale": 1.0
       }
     }
   }
