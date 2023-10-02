@@ -6,6 +6,8 @@
   "item.urbanwarfare.eotech_sight": "EOTech Sight",
   "item.urbanwarfare.kriss_vector_stock": "KRISS Vector Stock",
   "item.urbanwarfare.kriss_vector_suppressor": "KRISS Vector Suppressor",
+  "item.urbanwarfare.crossbow": "Crossbow",
+  "item.urbanwarfare.wooden_bolt": "Wooden Bolt",
   "tooltip.urbanwarfare.hold_shift_key": "Hold %s to view the item information",
   "tooltip.urbanwarfare.bullet_casing_info": "This item can be used as an ingredient to craft a bullet, and is not usable as ammunition",
   "itemGroup.urbanwarfare": "Urban Warfare"

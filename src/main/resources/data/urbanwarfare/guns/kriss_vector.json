@@ -17,8 +17,8 @@
     "damage": 3.5,
     "size": 0.3,
     "gravity": true,
-    "speed": 13.0,
-    "life": 25
+    "speed": 30.0,
+    "life": 30
   },
   "sounds": {
     "fire": "cgm:item.machine_pistol.fire",
