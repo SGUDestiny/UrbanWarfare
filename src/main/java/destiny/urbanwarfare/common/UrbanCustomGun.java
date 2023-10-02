@@ -6,6 +6,7 @@ import com.mrcrayfish.guns.item.GunItem;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.CompoundNBT;
+import destiny.urbanwarfare.common.UrbanGunItem;
 
 public class UrbanCustomGun {
 
