@@ -1,8 +1,8 @@
 package destiny.urbanwarfare.model;
 
 import com.mojang.blaze3d.matrix.MatrixStack;
-import com.mrcrayfish.guns.client.SpecialModels;
-import destiny.urbanwarfare.client.render.gun.IOverrideModel
+import destiny.urbanwarfare.client.SpecialModels;
+import destiny.urbanwarfare.client.render.gun.IOverrideModel;
 import com.mrcrayfish.guns.client.util.RenderUtil;
 import com.mrcrayfish.guns.common.Gun;
 import com.mrcrayfish.guns.init.ModSyncedDataKeys;
@@ -24,52 +24,31 @@ import java.util.WeakHashMap;
  */
 public class CrossbowModel implements IOverrideModel
 {
-    private WeakHashMap<LivingEntity, Rotations> rotationMap = new WeakHashMap<>();
-
     @Override
     public void tick(PlayerEntity entity)
     {
-        this.rotationMap.putIfAbsent(entity, new Rotations());
-        Rotations rotations = this.rotationMap.get(entity);
-        rotations.prevRotation = rotations.rotation;
-
-        boolean shooting = SyncedPlayerData.instance().get(entity, ModSyncedDataKeys.SHOOTING);
+        boolean hasAmmo = SyncedPlayerData.instance().get(entity, ModSyncedDataKeys.SHOOTING);
         ItemStack heldItem = entity.getMainHandItem();
-        if(!Gun.hasAmmo(heldItem) && !entity.isCreative())
+        if(!Gun.hasAmmo(heldItem))
         {
-            shooting = false;
+            hasAmmo = false;
         }
 
-        if(shooting)
+        if(hasAmmo)
         {
-            rotations.rotation += 20;
+RenderUtil.к
         }
         else
         {
-            rotations.rotation += 1;
         }
     }
 
     @Override
     public void render(float partialTicks, ItemCameraTransforms.TransformType transformType, ItemStack stack, ItemStack parent, LivingEntity entity, MatrixStack matrixStack, IRenderTypeBuffer renderTypeBuffer, int light, int overlay)
     {
-        Rotations rotations = this.rotationMap.computeIfAbsent(entity, uuid -> new Rotations());
-        Minecraft.getInstance().getItemRenderer().render(stack, ItemCameraTransforms.TransformType.NONE, false, matrixStack, renderTypeBuffer, light, overlay, SpecialModels.MINI_GUN_BASE.getModel());
-        matrixStack.pushPose();
-        RenderUtil.rotateZ(matrixStack, 0.0F, -0.375F, rotations.prevRotation + (rotations.rotation - rotations.prevRotation) * partialTicks);
-        Minecraft.getInstance().getItemRenderer().render(stack, ItemCameraTransforms.TransformType.NONE, false, matrixStack, renderTypeBuffer, light, overlay, SpecialModels.MINI_GUN_BARRELS.getModel());
-        matrixStack.popPose();
-    }
-
-    private static class Rotations
-    {
-        private int rotation;
-        private int prevRotation;
-    }
-
-    @SubscribeEvent
-    public void onClientDisconnect(ClientPlayerNetworkEvent.LoggedOutEvent event)
-    {
-        this.rotationMap.clear();
+        Minecraft.getInstance().getItemRenderer().render(stack, ItemCameraTransforms.TransformType.NONE, false, matrixStack, renderTypeBuffer, light, overlay, SpecialModels.CROSSBOW_BASE.getModel());
+        Minecraft.getInstance().getItemRenderer().render(stack, ItemCameraTransforms.TransformType.NONE, false, matrixStack, renderTypeBuffer, light, overlay, SpecialModels.CROSSBOW_BOLT.getModel());
+        Minecraft.getInstance().getItemRenderer().render(stack, ItemCameraTransforms.TransformType.NONE, false, matrixStack, renderTypeBuffer, light, overlay, SpecialModels.CROSSBOW_STRING_RELEASED.getModel());
+        Minecraft.getInstance().getItemRenderer().render(stack, ItemCameraTransforms.TransformType.NONE, false, matrixStack, renderTypeBuffer, light, overlay, SpecialModels.CROSSBOW_STRING_TAUT.getModel());
     }
 }
