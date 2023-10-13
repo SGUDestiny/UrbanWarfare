@@ -5,7 +5,7 @@
     "maxAmmo": 1,
     "reloadAmount": 1,
     "recoilAngle": 8.0,
-    "recoilKick": 2.0,
+    "recoilKick": 4.0,
     "recoilAdsReduction": 0.8,
     "projectileAmount": 1,
     "alwaysSpread": true,
@@ -15,9 +15,9 @@
     "item": "urbanwarfare:wooden_bolt",
     "damage": 16.0,
     "size": 1.0,
-    "speed": 2.3,
+    "speed": 7.0,
     "gravity": true,
-    "life": 20
+    "life": 35
   },
   "sounds": {
     "fire": "minecraft:item.crossbow.shoot",
@@ -40,24 +40,9 @@
       "fovModifier": 0.8
     },
     "attachments": {
-      "scope": {
-        "yOffset": 13.25,
-        "zOffset": 10.5,
-        "scale": 1.0
-      },
-      "barrel": {
-        "yOffset": 12.5,
-        "zOffset": -16.74,
-        "scale": 1.0
-      },
-      "stock": {
-        "yOffset": 12.5,
-        "zOffset": 18.0,
-        "scale": 1.0
-      },
       "underBarrel": {
-        "yOffset": 0.0,
-        "zOffset": 0.0,
+        "yOffset": 4.0,
+        "zOffset": -7.5,
         "scale": 1.0
       }
     }

@@ -36,7 +36,6 @@ public class CrossbowModel implements IOverrideModel
 
         if(hasAmmo)
         {
-RenderUtil.к
         }
         else
         {

@@ -6,14 +6,14 @@
     "maxAmmo": 19,
     "reloadAmount": 3,
     "recoilAngle": 6.0,
-    "recoilKick": 1.0,
-    "recoilAdsReduction": 0.3,
+    "recoilKick": 2.0,
+    "recoilAdsReduction": 0.4,
     "projectileAmount": 1,
     "alwaysSpread": true,
     "spread": 12.0
   },
   "projectile": {
-    "item": "cgm:basic_bullet",
+    "item": "urbanwarfare:9mm_round",
     "damage": 3.5,
     "size": 0.2,
     "speed": 14.0,
@@ -29,26 +29,26 @@
   },
   "display": {
     "flash": {
-      "yOffset": 7.0,
-      "zOffset": -4.0,
-      "size": 0.5
+      "yOffset": 6.5,
+      "zOffset": -0.5,
+      "size": 0.7
     }
   },
   "modules": {
     "zoom": {
-      "yOffset": 10.0,
+      "yOffset": 9.0,
       "zOffset": 2.5,
       "fovModifier": 0.8
     },
     "attachments": {
       "scope": {
-        "yOffset": 8.4,
-        "zOffset": 11.0,
+        "yOffset": 7.4,
+        "zOffset": 13.0,
         "scale": 1.0
       },
       "barrel": {
-        "yOffset": 7.5,
-        "zOffset": -2.25,
+        "yOffset": 6.5,
+        "zOffset": -0.25,
         "scale": 1.0
       }
     }

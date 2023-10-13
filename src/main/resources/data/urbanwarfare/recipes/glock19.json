@@ -3,11 +3,11 @@
   "materials": [
     {
       "tag": "forge:ingots/iron",
-      "count": 8
+      "count": 18
     },
     {
       "item": "minecraft:gray_concrete",
-      "count": 3
+      "count": 4
     },
     {
       "item": "minecraft:iron_bars",

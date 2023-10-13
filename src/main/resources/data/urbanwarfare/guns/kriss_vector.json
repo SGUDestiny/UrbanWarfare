@@ -7,17 +7,17 @@
     "reloadAmount": 4,
     "recoilAngle": 3.0,
     "recoilKick": 1.0,
-    "recoilAdsReduction": 0.5,
+    "recoilAdsReduction": 0.6,
     "projectileAmount": 1,
     "alwaysSpread": true,
     "spread": 8.0
   },
   "projectile": {
-    "item": "cgm:basic_bullet",
+    "item": "urbanwarfare:9mm_round",
     "damage": 3.5,
     "size": 0.3,
     "gravity": true,
-    "speed": 30.0,
+    "speed": 22.0,
     "life": 30
   },
   "sounds": {
@@ -30,8 +30,8 @@
   "display": {
     "flash": {
       "yOffset": 8.4,
-      "zOffset": -21.0,
-      "size": 0.6
+      "zOffset": -19.5,
+      "size": 0.7
     }
   },
   "modules": {
@@ -57,8 +57,8 @@
         "scale": 1.0
       },
       "underBarrel": {
-        "yOffset": 0.0,
-        "zOffset": 0.0,
+        "yOffset": 8.0,
+        "zOffset": -9.5,
         "scale": 1.0
       }
     }

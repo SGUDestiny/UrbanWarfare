@@ -3,19 +3,19 @@
   "materials": [
     {
       "tag": "forge:ingots/iron",
-      "count": 10
+      "count": 36
     },
     {
       "item": "minecraft:gray_concrete",
-      "count": 5
+      "count": 7
     },
     {
       "item": "minecraft:iron_bars",
-      "count": 12
+      "count": 14
     },
     {
       "item": "minecraft:heavy_weighted_pressure_plate",
-      "count": 2
+      "count": 3
     }
   ],
   "result": {

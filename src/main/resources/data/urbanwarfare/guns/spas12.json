@@ -5,14 +5,14 @@
     "maxAmmo": 8,
     "reloadAmount": 1,
     "recoilAngle": 15.0,
-    "recoilKick": 1.0,
-    "recoilAdsReduction": 0.6,
+    "recoilKick": 3.5,
+    "recoilAdsReduction": 0.5,
     "projectileAmount": 7,
     "alwaysSpread": true,
     "spread": 15.0
   },
   "projectile": {
-    "item": "cgm:shell",
+    "item": "urbanwarfare:12_gauge_shell",
     "damage": 14.0,
     "size": 1.0,
     "speed": 13.0,
@@ -35,7 +35,7 @@
   },
   "modules": {
     "zoom": {
-      "yOffset": 15.5,
+      "yOffset": 14.5,
       "zOffset": 5.0,
       "fovModifier": 0.8
     },
@@ -56,8 +56,8 @@
         "scale": 1.0
       },
       "underBarrel": {
-        "yOffset": 0.0,
-        "zOffset": 0.0,
+        "yOffset": 10.0,
+        "zOffset": -2.0,
         "scale": 1.0
       }
     }
