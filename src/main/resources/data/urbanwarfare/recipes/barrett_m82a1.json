@@ -1,0 +1,32 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "tag": "forge:storage_blocks/iron",
+      "count": 3
+    },
+    {
+      "tag": "forge:ingots/iron",
+      "count": 52
+    },
+    {
+      "item": "minecraft:gray_concrete",
+      "count": 14
+    },
+    {
+      "item": "minecraft:iron_bars",
+      "count": 7
+    },
+    {
+      "item": "minecraft:heavy_weighted_pressure_plate",
+      "count": 4
+    },
+    {
+      "item": "minecraft:obsidian",
+      "count": 3
+    }
+  ],
+  "result": {
+    "item": "urbanwarfare:barrett_m82a1"
+  }
+}

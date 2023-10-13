@@ -1,0 +1,28 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "tag": "forge:ingots/iron",
+      "count": 24
+    },
+    {
+      "item": "minecraft:gray_concrete",
+      "count": 5
+    },
+    {
+      "item": "minecraft:iron_bars",
+      "count": 8
+    },
+    {
+      "item": "minecraft:heavy_weighted_pressure_plate",
+      "count": 6
+    },
+    {
+      "tag": "forge:nuggets/iron",
+      "count": 8
+    }
+  ],
+  "result": {
+    "item": "urbanwarfare:colt_king_cobra"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "tag": "forge:ingots/iron",
+      "count": 1
+    },
+    {
+      "tag": "forge:nuggets/iron",
+      "count": 2
+    },
+    {
+      "tag": "forge:nuggets/gold",
+      "count": 4
+    },
+    {
+      "tag": "forge:gunpowder",
+      "count": 3
+    }
+  ],
+  "result": {
+    "item": "urbanwarfare:12_gauge_shell",
+    "count": 24
+  }
+}

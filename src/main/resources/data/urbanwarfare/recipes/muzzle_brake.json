@@ -1,0 +1,24 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "tag": "forge:ingots/iron",
+      "count": 8
+    },
+    {
+      "item": "minecraft:iron_bars",
+      "count": 4
+    },
+    {
+      "item": "minecraft:iron_trapdoor",
+      "count": 2
+    },
+    {
+      "item": "minecraft:obsidian",
+      "count": 2
+    }
+  ],
+  "result": {
+    "item": "urbanwarfare:muzzle_brake"
+  }
+}

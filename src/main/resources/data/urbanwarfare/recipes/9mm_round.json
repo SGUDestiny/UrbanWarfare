@@ -1,0 +1,21 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "tag": "forge:ingots/iron",
+      "count": 1
+    },
+    {
+      "tag": "forge:nuggets/iron",
+      "count": 5
+    },
+    {
+      "tag": "forge:gunpowder",
+      "count": 2
+    }
+  ],
+  "result": {
+    "item": "urbanwarfare:9mm_round",
+    "count": 32
+  }
+}

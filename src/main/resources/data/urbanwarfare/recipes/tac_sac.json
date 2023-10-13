@@ -1,0 +1,24 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "tag": "forge:ingots/iron",
+      "count": 4
+    },
+    {
+      "item": "minecraft:iron_bars",
+      "count": 2
+    },
+    {
+      "item": "minecraft:egg",
+      "count": 2
+    },
+    {
+      "item": "minecraft:gray_wool",
+      "count": 2
+    }
+  ],
+  "result": {
+    "item": "urbanwarfare:tac_sac"
+  }
+}

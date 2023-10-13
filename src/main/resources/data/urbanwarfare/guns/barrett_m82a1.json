@@ -1,0 +1,55 @@
+{
+  "general": {
+    "rate": 20,
+    "gripType": "cgm:two_handed",
+    "maxAmmo": 5,
+    "reloadAmount": 1,
+    "recoilAngle": 15.0,
+    "recoilKick": 8.0,
+    "recoilAdsReduction": 0.65,
+    "projectileAmount": 1,
+    "alwaysSpread": true,
+    "spread": 1.2
+  },
+  "projectile": {
+    "item": "urbanwarfare:50_bmg_round",
+    "damage": 30.0,
+    "size": 1.5,
+    "speed": 30.0,
+    "gravity": true,
+    "life": 75
+  },
+  "sounds": {
+    "fire": "cgm:item.heavy_rifle.fire",
+    "reload": "cgm:item.pistol.reload",
+    "cock": "cgm:item.heavy_rifle.cock",
+    "silencedFire": "cgm:item.heavy_rifle.silenced_fire",
+    "enchantedFire": "cgm:item.heavy_rifle.enchanted_fire"
+  },
+  "display": {
+    "flash": {
+      "yOffset": 6.0,
+      "zOffset": -24.0,
+      "size": 1.5
+    }
+  },
+  "modules": {
+    "zoom": {
+      "yOffset": 9.0,
+      "zOffset": 8.0,
+      "fovModifier": 0.65
+    },
+    "attachments": {
+      "scope": {
+        "yOffset": 7.0,
+        "zOffset": 9.0,
+        "scale": 1.0
+      },
+      "barrel": {
+        "yOffset": 6.0,
+        "zOffset": -21.5,
+        "scale": 1.0
+      }
+    }
+  }
+}

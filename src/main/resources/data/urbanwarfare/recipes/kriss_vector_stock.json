@@ -1,0 +1,24 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "tag": "forge:ingots/iron",
+      "count": 12
+    },
+    {
+      "item": "minecraft:iron_bars",
+      "count": 3
+    },
+    {
+      "item": "minecraft:gray_wool",
+      "count": 5
+    },
+    {
+      "tag": "forge:nuggets/iron",
+      "count": 7
+    }
+  ],
+  "result": {
+    "item": "urbanwarfare:kriss_vector_stock"
+  }
+}

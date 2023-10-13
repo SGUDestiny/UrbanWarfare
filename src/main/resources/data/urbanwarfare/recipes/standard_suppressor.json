@@ -1,0 +1,28 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "tag": "forge:ingots/iron",
+      "count": 6
+    },
+    {
+      "item": "minecraft:iron_bars",
+      "count": 10
+    },
+    {
+      "tag": "forge:nuggets/iron",
+      "count": 8
+    },
+    {
+      "item": "minecraft:gray_concrete",
+      "count": 3
+    },
+    {
+      "item": "minecraft:sponge",
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "urbanwarfare:standard_suppressor"
+  }
+}
